@@ -25,19 +25,24 @@ import android.widget.Button;
             }
         });
 
-        Button btnPress2 = findViewById(R.id.btnSimpan);
-        btnPress2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-                ft.replace(R.id.frameMain2, new Mahasiswa2Fragment());
-                ft.commit();
-            }
-        });
+//        Button btnPress2 = findViewById(R.id.btnSimpan);
+//        btnPress2.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+//                ft.replace(R.id.frameMain2, new Mahasiswa2Fragment());
+//                ft.commit();
+//            }
+//        });
     }
 
         public void ToFragment(View view) {
         Intent intent = new Intent(MainActivity.this, Main3FragmentActivity.class);
+        startActivity(intent);
+        }
+
+        public void ToList(View view) {
+        Intent intent = new Intent(MainActivity.this, ListActivity.class);
         startActivity(intent);
         }
 
