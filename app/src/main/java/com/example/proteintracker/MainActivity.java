@@ -46,4 +46,8 @@ import android.widget.Button;
         startActivity(intent);
         }
 
-}
+        public void GotoListMahasiswa(View view) {
+        Intent intent = new Intent(MainActivity.this, ListMahasiswaActivity.class);
+        startActivity(intent);
+        }
+    }

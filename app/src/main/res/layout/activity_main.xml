@@ -56,4 +56,18 @@
         app:layout_constraintTop_toBottomOf="@+id/btnMahasiswa"
         app:layout_constraintVertical_bias="0.258" />
 
+    <Button
+        android:id="@+id/listMahasiswa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="List Mahasiswa"
+        android:onClick="GotoListMahasiswa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.435"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnList"
+        app:layout_constraintVertical_bias="0.0" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
