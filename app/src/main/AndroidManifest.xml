@@ -9,18 +9,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".UpdateMhsActivity"></activity>
-        <activity android:name=".CreateMhsActivity" />
-        <activity android:name=".ListMahasiswaActivity" />
-        <activity android:name=".ListActivity" />
-        <activity android:name=".Main3FragmentActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".LogInActivity"></activity>
+        <activity
+            android:name=".SettingsPTActivity"
+            android:label="@string/title_activity_settings_pt" />
+        <activity android:name=".dialogActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".RecycleViewActivity" />
+        <activity android:name=".UpdateMhsActivity" />
+        <activity android:name=".CreateMhsActivity" />
+        <activity android:name=".ListMahasiswaActivity" />
+        <activity android:name=".ListActivity" />
+        <activity android:name=".Main3FragmentActivity" />
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

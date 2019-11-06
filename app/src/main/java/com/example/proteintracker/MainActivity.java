@@ -50,4 +50,14 @@ import android.widget.Button;
         Intent intent = new Intent(MainActivity.this, ListMahasiswaActivity.class);
         startActivity(intent);
         }
+
+        public void GoToEnter(View view) {
+            Intent intent = new Intent(MainActivity.this, dialogActivity.class);
+            startActivity(intent);
+        }
+
+        public void GoToReset(View view) {
+            Intent intent = new Intent(MainActivity.this, dialogActivity.class);
+            startActivity(intent);
+        }
     }
